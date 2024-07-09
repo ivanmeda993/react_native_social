@@ -1,6 +1,7 @@
 import React from 'react';
-import {Image, Text, View} from 'react-native';
+import {Text, View} from 'react-native';
 import {storyStyle} from './style.ts';
+import ProfileImage from '../profile/profile-image.tsx';
 
 interface StoryItemProps {
   story: UserStory;
@@ -8,9 +9,7 @@ interface StoryItemProps {
 const StoryItem = ({story}: StoryItemProps) => {
   return (
     <View style={storyStyle.storyContainer}>
-      <View style={storyStyle.imageContainer}>
-        <Image style={storyStyle.image} source={{uri: story.profileImage}} />
-      </View>
+      <ProfileImage imageDimensions={65} imgSrc={story.profileImage} />
       <Text style={storyStyle.firstName}>{story.firstName}</Text>
     </View>
   );

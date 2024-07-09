@@ -16,15 +16,4 @@ export const storyStyle = StyleSheet.create({
     marginTop: 8,
     textAlign: 'center',
   },
-  imageContainer: {
-    borderColor: '#F35BAC',
-    borderWidth: 1,
-    padding: 4,
-    borderRadius: 65,
-  },
-  image: {
-    width: 65,
-    height: 65,
-    borderRadius: 65,
-  },
 });
