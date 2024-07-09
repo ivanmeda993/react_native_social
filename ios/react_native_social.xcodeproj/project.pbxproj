@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* react_native_socialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* react_native_socialTests.m */; };
+		097C8AB947CF42B6AF5D060F /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 171060B2735F42BF8CEDBD2F /* Inter-ExtraBold.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		42F254879919E808206400FC /* libPods-react_native_social-react_native_socialTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8427B94479EC338BD7297D22 /* libPods-react_native_social-react_native_socialTests.a */; };
+		4460B84F8896484EBC1897A2 /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 108BE869E0CF476289E63550 /* Inter-Thin.ttf */; };
 		476C338C5477DD97BAD0DA96 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 8960B9D565BE3D044ABE58E3 /* PrivacyInfo.xcprivacy */; };
+		7033B883F813446297EB69B5 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 071A848DF975414BB7E56402 /* Inter-Medium.ttf */; };
+		7432E0E5A67B431481C56662 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A9495D0A2D74048A7F83069 /* Inter-Regular.ttf */; };
+		7A0D33EA23F24A7B8FF21C8B /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D77C62DAA36413D99A80566 /* Inter-Light.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		B6916ED10F859F799A519484 /* libPods-react_native_social.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA47C156DF584C031517FBD9 /* libPods-react_native_social.a */; };
 		BDDD9C2632F94F15984EF455 /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 890943C5754B4CE2BCABA502 /* Inter-Black.ttf */; };
-		EDB17880A0014E23ABF5DE64 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B1A23E19B99420FBFA5E25E /* Inter-Bold.ttf */; };
-		097C8AB947CF42B6AF5D060F /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 171060B2735F42BF8CEDBD2F /* Inter-ExtraBold.ttf */; };
 		D921ACDA54904731AA01E4AF /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 342C499C2312477CB18A5E3A /* Inter-ExtraLight.ttf */; };
-		7A0D33EA23F24A7B8FF21C8B /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D77C62DAA36413D99A80566 /* Inter-Light.ttf */; };
-		7033B883F813446297EB69B5 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 071A848DF975414BB7E56402 /* Inter-Medium.ttf */; };
-		7432E0E5A67B431481C56662 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A9495D0A2D74048A7F83069 /* Inter-Regular.ttf */; };
 		E8A0F6A8CC924347991492F3 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E06EE6E3D65D4B6FB469C618 /* Inter-SemiBold.ttf */; };
-		4460B84F8896484EBC1897A2 /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 108BE869E0CF476289E63550 /* Inter-Thin.ttf */; };
+		EDB17880A0014E23ABF5DE64 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B1A23E19B99420FBFA5E25E /* Inter-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +40,8 @@
 		00E356EE1AD99517003FC87E /* react_native_socialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = react_native_socialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* react_native_socialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = react_native_socialTests.m; sourceTree = "<group>"; };
+		071A848DF975414BB7E56402 /* Inter-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Medium.ttf"; path = "../assets/fonts/Inter-Medium.ttf"; sourceTree = "<group>"; };
+		108BE869E0CF476289E63550 /* Inter-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Thin.ttf"; path = "../assets/fonts/Inter-Thin.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* react_native_social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = react_native_social.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = react_native_social/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = react_native_social/AppDelegate.mm; sourceTree = "<group>"; };
@@ -47,24 +49,22 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = react_native_social/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = react_native_social/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = react_native_social/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		171060B2735F42BF8CEDBD2F /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-ExtraBold.ttf"; path = "../assets/fonts/Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
+		1B1A23E19B99420FBFA5E25E /* Inter-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Bold.ttf"; path = "../assets/fonts/Inter-Bold.ttf"; sourceTree = "<group>"; };
+		2D77C62DAA36413D99A80566 /* Inter-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Light.ttf"; path = "../assets/fonts/Inter-Light.ttf"; sourceTree = "<group>"; };
+		342C499C2312477CB18A5E3A /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-ExtraLight.ttf"; path = "../assets/fonts/Inter-ExtraLight.ttf"; sourceTree = "<group>"; };
 		363699408BE467C4EDE78468 /* Pods-react_native_social.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react_native_social.debug.xcconfig"; path = "Target Support Files/Pods-react_native_social/Pods-react_native_social.debug.xcconfig"; sourceTree = "<group>"; };
+		3A9495D0A2D74048A7F83069 /* Inter-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Regular.ttf"; path = "../assets/fonts/Inter-Regular.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = react_native_social/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8427B94479EC338BD7297D22 /* libPods-react_native_social-react_native_socialTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-react_native_social-react_native_socialTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		890943C5754B4CE2BCABA502 /* Inter-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Black.ttf"; path = "../assets/fonts/Inter-Black.ttf"; sourceTree = "<group>"; };
 		8960B9D565BE3D044ABE58E3 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = react_native_social/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		DA47C156DF584C031517FBD9 /* libPods-react_native_social.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-react_native_social.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E06EE6E3D65D4B6FB469C618 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-SemiBold.ttf"; path = "../assets/fonts/Inter-SemiBold.ttf"; sourceTree = "<group>"; };
 		E603744487B00405197F8028 /* Pods-react_native_social-react_native_socialTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react_native_social-react_native_socialTests.release.xcconfig"; path = "Target Support Files/Pods-react_native_social-react_native_socialTests/Pods-react_native_social-react_native_socialTests.release.xcconfig"; sourceTree = "<group>"; };
 		EA7C4AAC7716D563C18B2234 /* Pods-react_native_social.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react_native_social.release.xcconfig"; path = "Target Support Files/Pods-react_native_social/Pods-react_native_social.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F0033C33C793A30438A379B7 /* Pods-react_native_social-react_native_socialTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react_native_social-react_native_socialTests.debug.xcconfig"; path = "Target Support Files/Pods-react_native_social-react_native_socialTests/Pods-react_native_social-react_native_socialTests.debug.xcconfig"; sourceTree = "<group>"; };
-		890943C5754B4CE2BCABA502 /* Inter-Black.ttf */ = {isa = PBXFileReference; name = "Inter-Black.ttf"; path = "../assets/fonts/Inter-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		1B1A23E19B99420FBFA5E25E /* Inter-Bold.ttf */ = {isa = PBXFileReference; name = "Inter-Bold.ttf"; path = "../assets/fonts/Inter-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		171060B2735F42BF8CEDBD2F /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Inter-ExtraBold.ttf"; path = "../assets/fonts/Inter-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		342C499C2312477CB18A5E3A /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Inter-ExtraLight.ttf"; path = "../assets/fonts/Inter-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2D77C62DAA36413D99A80566 /* Inter-Light.ttf */ = {isa = PBXFileReference; name = "Inter-Light.ttf"; path = "../assets/fonts/Inter-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		071A848DF975414BB7E56402 /* Inter-Medium.ttf */ = {isa = PBXFileReference; name = "Inter-Medium.ttf"; path = "../assets/fonts/Inter-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		3A9495D0A2D74048A7F83069 /* Inter-Regular.ttf */ = {isa = PBXFileReference; name = "Inter-Regular.ttf"; path = "../assets/fonts/Inter-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		E06EE6E3D65D4B6FB469C618 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; name = "Inter-SemiBold.ttf"; path = "../assets/fonts/Inter-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		108BE869E0CF476289E63550 /* Inter-Thin.ttf */ = {isa = PBXFileReference; name = "Inter-Thin.ttf"; path = "../assets/fonts/Inter-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,7 +173,7 @@
 			sourceTree = "<group>";
 		};
 		D3A7D29C99E049289B4629DA /* Resources */ = {
-			isa = "PBXGroup";
+			isa = PBXGroup;
 			children = (
 				890943C5754B4CE2BCABA502 /* Inter-Black.ttf */,
 				1B1A23E19B99420FBFA5E25E /* Inter-Bold.ttf */,
@@ -186,8 +186,8 @@
 				108BE869E0CF476289E63550 /* Inter-Thin.ttf */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
 			path = "";
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 

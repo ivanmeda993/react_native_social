@@ -1,53 +1,24 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
-
 import React from 'react';
-import {SafeAreaView, StyleSheet, Text, useColorScheme} from 'react-native';
-
-import {Colors} from 'react-native/Libraries/NewAppScreen';
-import {getFontFamily} from './libs/getFontFamily.ts';
+import {SafeAreaView, Text, TouchableOpacity, View} from 'react-native';
+import Title from './components/title/Title.tsx';
+import {FontAwesomeIcon} from '@fortawesome/react-native-fontawesome';
+import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
+import {globalStyle} from './assets/styles/global-style.ts';
 
 function App(): React.JSX.Element {
-  const isDarkMode = useColorScheme() === 'dark';
-
-  const backgroundStyle = {
-    backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
-  };
-
   return (
-    <SafeAreaView style={backgroundStyle}>
-      <Text
-        style={{
-          fontSize: 24,
-          fontFamily: getFontFamily('Inter', '900'),
-        }}>
-        test
-      </Text>
+    <SafeAreaView>
+      <View style={globalStyle.header}>
+        <Title title="Let's Explore" />
+        <TouchableOpacity style={globalStyle.messageIcon}>
+          <FontAwesomeIcon icon={faEnvelope} color="#898DAE" size={20} />
+          <View style={globalStyle.messageNumberContainer}>
+            <Text style={globalStyle.messageNumber}>3</Text>
+          </View>
+        </TouchableOpacity>
+      </View>
     </SafeAreaView>
   );
 }
-
-const styles = StyleSheet.create({
-  sectionContainer: {
-    marginTop: 32,
-    paddingHorizontal: 24,
-  },
-  sectionTitle: {
-    fontSize: 24,
-    fontWeight: '600',
-  },
-  sectionDescription: {
-    marginTop: 8,
-    fontSize: 18,
-    fontWeight: '400',
-  },
-  highlight: {
-    fontWeight: '700',
-  },
-});
 
 export default App;
