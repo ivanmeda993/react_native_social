@@ -4,8 +4,10 @@ import Title from './components/title/Title.tsx';
 import {FontAwesomeIcon} from '@fortawesome/react-native-fontawesome';
 import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
 import {globalStyle} from './assets/styles/global-style.ts';
+import UserStories from './components/story';
+import {USER_STORIES} from './mocks/user.ts';
 
-function App(): React.JSX.Element {
+function App() {
   return (
     <SafeAreaView>
       <View style={globalStyle.header}>
@@ -17,6 +19,7 @@ function App(): React.JSX.Element {
           </View>
         </TouchableOpacity>
       </View>
+      <UserStories userStories={USER_STORIES} />
     </SafeAreaView>
   );
 }
