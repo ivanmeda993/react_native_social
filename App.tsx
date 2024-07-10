@@ -1,13 +1,12 @@
 import React from 'react';
-import {SafeAreaView} from 'react-native';
-import {globalStyle} from './assets/styles/global-style.ts';
-import UserPosts from './components/posts/user-posts.tsx';
+import {NavigationContainer} from '@react-navigation/native';
+import MainNavigation from './navigation/main-navigation.tsx';
 
 function App() {
   return (
-    <SafeAreaView style={globalStyle.screenContainer}>
-      <UserPosts />
-    </SafeAreaView>
+    <NavigationContainer>
+      <MainNavigation />
+    </NavigationContainer>
   );
 }
 
