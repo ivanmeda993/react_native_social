@@ -6,8 +6,8 @@ export const globalStyle = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    marginLeft: 27,
-    marginRight: 17,
+    marginLeft: 10,
+    marginRight: 8,
     marginTop: 30,
   },
   messageIcon: {

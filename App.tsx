@@ -4,7 +4,7 @@ import Title from './components/title/Title.tsx';
 import {FontAwesomeIcon} from '@fortawesome/react-native-fontawesome';
 import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
 import {globalStyle} from './assets/styles/global-style.ts';
-import UserStories from './components/story';
+import UserStories from './components/story/user-stories.tsx';
 import {USER_STORIES} from './mocks/user.ts';
 
 function App() {
