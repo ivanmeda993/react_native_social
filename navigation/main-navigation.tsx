@@ -2,20 +2,22 @@ import React from 'react';
 
 import {createStackNavigator} from '@react-navigation/stack';
 import HomeScreen from '../screens/home/home-screen.tsx';
-import {ROUTES} from './routes.ts';
+import ProfileScreen from '../screens/profile/profile-screen.tsx';
+import {RootStackParamList} from '../types/navigation';
 
-const Stack = createStackNavigator();
+const RootStack = createStackNavigator<RootStackParamList>();
 
 const MainNavigation = () => {
   return (
-    <Stack.Navigator
+    <RootStack.Navigator
       screenOptions={{
         header: () => null,
         headerShown: false,
       }}
-      initialRouteName={ROUTES.Home}>
-      <Stack.Screen name={ROUTES.Home} component={HomeScreen} />
-    </Stack.Navigator>
+      initialRouteName="Home">
+      <RootStack.Screen name="Home" component={HomeScreen} />
+      <RootStack.Screen name="Profile" component={ProfileScreen} />
+    </RootStack.Navigator>
   );
 };
 
