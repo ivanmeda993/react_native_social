@@ -4,7 +4,6 @@ import {getFontFamily} from '../../libs/getFontFamily.ts';
 export const storyStyle = StyleSheet.create({
   userStoriesContainer: {
     marginTop: 10,
-    marginHorizontal: 10,
   },
   storyContainer: {
     marginRight: 10,
