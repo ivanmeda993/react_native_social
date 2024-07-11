@@ -14,3 +14,16 @@ interface UserPost {
   comments: number;
   bookmarks: number;
 }
+
+interface UserProfile {
+  id: number;
+  name: string;
+  profileImage: string;
+
+  followers: number;
+  following: number;
+  posts: number;
+  photos: string[];
+  videos: string[];
+  saved: string[];
+}

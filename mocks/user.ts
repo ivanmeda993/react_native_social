@@ -17,3 +17,24 @@ export const USER_POSTS: UserPost[] = Array.from({length: 100}, (_, i) => ({
   comments: Math.floor(Math.random() * 100),
   bookmarks: Math.floor(Math.random() * 100),
 }));
+
+export const USER_PROFILE: UserProfile = {
+  id: 1,
+  name: 'Ivan Milicevic',
+  profileImage: 'https://randomuser.me/api/portraits/men/11.jpg',
+  followers: 435,
+  following: 45,
+  posts: 110,
+  photos: Array.from(
+    {length: 100},
+    (_, i) => `https://picsum.photos/400?random=${i}`,
+  ),
+  videos: Array.from(
+    {length: 100},
+    (_, i) => `https://picsum.photos/400?random=${i}`,
+  ),
+  saved: Array.from(
+    {length: 100},
+    (_, i) => `https://picsum.photos/400?random=${i}`,
+  ),
+};

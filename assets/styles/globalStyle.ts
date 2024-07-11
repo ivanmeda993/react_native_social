@@ -11,4 +11,7 @@ export const globalStyle = StyleSheet.create({
     marginLeft: horizontalScale(10),
     marginRight: verticalScale(10),
   },
+  flexGrow: {
+    flexGrow: 1,
+  },
 });

@@ -5,7 +5,19 @@ declare global {
     interface RootParamList extends RootStackParamList {}
   }
 }
+
+// Define the parameter list for ProfileTabs
+type ProfileTabsParamList = {
+  Photos: undefined;
+  Videos: undefined;
+  Saved: undefined;
+};
+type ProfileTabsProps = NativeStackScreenProps<
+  ProfileTabsParamList,
+  keyof ProfileTabsParamList
+>;
 type RootStackParamList = {
+  Drawer: undefined;
   Home: undefined;
   Profile: {userId: string};
 };
